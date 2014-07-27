@@ -4,8 +4,11 @@
 #Getting and Cleaning Data - run analysis
 
 '#1. reading the features.txt file into features data frame
+
 '#2. reading the training data into x_train data frame
+
 '#3. update column names from feature data frame
+
 '#4. reading the activity id and activity description
 '#5. reading the activity ids correspnding to the training data frame
 '#6. merge the activity id frame with activity labels on activity_id 
