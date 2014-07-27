@@ -1,0 +1,36 @@
+Code Book run_analysis.R
+
+#1.  features: contains the column names of training data
+#2.  x_train: contains the training data 
+#3.  after this step x_train column names are updeted by features data frame 
+#4.  activity: contains the activity labels
+#5.  y_train: contains the activity ids for the x_train data
+#6.  y_train1: contains the activity ids and the activity description for the x_train data set.
+#7.  x_train1: contains the data from x_train (step #2) plus the column with the activity description from 
+	 y_train1 data frame 
+#8.  x_train1: The new column name is set to "activity"
+#9.  sub_train: contains the subject data corresponding to x_train and x_train1
+#10. x_train2: contains the data from x_train1 (step #7) plus the column with the subject id from 
+	 sub_train (step #9) data frame
+#11. x_train2: The new column name is set to "subject"	 
+#12. x_test: contains the training data
+#13  after this step x_test column names are updeted by features data frame 
+#14  y_test: contains the activity ids for the x_test data
+#15  y_test1: contains the activity ids and the activity description for the x_test data set.
+#16  x_test1: contains the data from x_test (step #14) plus the column with the activity description from 
+	 y_test1 data frame 
+#17  x_test1: The new column name is set to "activity"
+#18  sub_test: contains the subject data corresponding to x_test and x_test1
+#19  x_test2 :contains the data from x_test1 (step #17) plus the column with the subject id from 
+	 sub_test (step #18) data frame
+#20  x_test2 :The new column name is set to "subject"	
+#21  activity, sub_test, sub_train, x_train, x_train1, y_train, y_train1, x_test, x_test1, y_test, y_test1: removed
+#22  x_all:  contain all data from training nad test data frames
+#23  x_test2, x_train2:  removed
+#24  names1: contains the column names for x_all data frame
+     listmean: contains the column names for the new data frame with mean 
+#25  x_new : contains the columns of measurements on the mean and standard deviation
+#26  x_all: removed
+#27  tidy_set: data frame with the average of each variable for each activity and each subject.
+ 	 
+	 
